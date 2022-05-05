@@ -98,7 +98,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/laptop-pic.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
    /* set height to 100% - these are important for allowing content to vertically align */
@@ -113,7 +113,7 @@ body {
     /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -123,9 +123,22 @@ body {
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
     background: #222;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background:rgba(0,0,0,0.7);
+    background:rgba(46,139,87,0.9);
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    border-radius: 10px;
+    padding: 0px 30px;
+    width: 300px;
+    height: 300px;
+}
+
+#favorites {
+    background:rgba(46,139,87,0.9);
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
